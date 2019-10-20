@@ -8,7 +8,20 @@ namespace ZadaniaDljaKollegi
         {
 
             Console.WriteLine("Kollega,Privet!");
+            //print numbers from 10 to 20. you can modify the loop I wrote or white a new one. 
+            for (int i=10; i<21; i++)//19 октября 2019
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("\n");
+
             //первый цикл - напечатать числа от 1 до 10
+            for (int i = 1; i < 11; i++)//простой способ 19 октября 2019
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("\n");
+
             int[] myarray = new int[11];
             for (int i = 1; i < myarray.Length; i++)
             {
@@ -17,7 +30,7 @@ namespace ZadaniaDljaKollegi
 
             Console.ReadLine();
             for (int i = 1; i < myarray.Length; i++)
-            { 
+            {
                 if (i > 0 && i <= 10)
                 {
                     Console.WriteLine(i);//ВТОРОЙ СПОСОБ
@@ -36,11 +49,10 @@ namespace ZadaniaDljaKollegi
         }
     }
 }
-/*
+/* 
   Skype: 29 марта 2019
-ok next assignment. 
-print numbers from 10 to 20. you can modify the loop I wrote or white a new one. 
-assignment 
+
+
 3. print numbers from 10 to 20 in step of 2. (10,12,14,16...)
 assignment 
 4. print numbers from 10 to 1 in descending order (10,9,8,7...)
