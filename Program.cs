@@ -6,7 +6,7 @@ namespace ZadaniaDljaKollegi
     {
         static void Main(string[] args)
         {
-
+            /*
             Console.WriteLine("Kollega,Privet!");
             //print numbers from 10 to 20. you can modify the loop I wrote or white a new one. 
             for (int i=10; i<21; i++)//19 октября 2019
@@ -40,20 +40,37 @@ namespace ZadaniaDljaKollegi
                     throw IndexOutOfRangeException();
                 }
 
+            }*/
+            //3. print numbers from 10 to 20 in step of 2. (10,12,14,16...)
+            //int i = 0;
+            for (int i = 6; i < 12; i++)
+            {
+                Console.WriteLine(i + i - +2);//сделала сама
             }
+            
+            for (int i =10; i < 21; i += 2)//нашла https://www.rosettacode.org/wiki/Loops/For_with_a_specified_step#C.23
+            {
+                Console.WriteLine(i);
+            }
+
+
+
+
+
         }
 
         private static Exception IndexOutOfRangeException()
         {
             throw new NotImplementedException();
         }
+        
     }
 }
 /* 
   Skype: 29 марта 2019
 
 
-3. print numbers from 10 to 20 in step of 2. (10,12,14,16...)
+
 assignment 
 4. print numbers from 10 to 1 in descending order (10,9,8,7...)
 assignment 
